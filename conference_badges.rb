@@ -26,4 +26,5 @@ def printer(attendees)
   attendees.each do |names|
   array << batch_badge_creator(names)
   end
+  return array
 end
