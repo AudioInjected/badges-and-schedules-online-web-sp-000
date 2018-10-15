@@ -9,7 +9,7 @@ def batch_badge_creator(array_names)
 
     array_names.each do |names|
         binding.pry
-    array_badge_messages << badge_maker(name)
+    array_badge_messages << badge_maker(names)
 
   end
   return array_badge_messages
