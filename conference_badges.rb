@@ -22,8 +22,8 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  array_room = assign_rooms(attendees)
-  array_room.each do |room|
+  
+  assign_rooms(attendees).each do |room|
     puts room
   end
 end
