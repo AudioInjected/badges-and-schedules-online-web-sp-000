@@ -22,5 +22,5 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-
+  array_room = assign_rooms(attendees)
 end
