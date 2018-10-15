@@ -22,8 +22,7 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
+  attendees.each do |name|
 
-  assign_rooms(attendees).each do |value|
-    puts value
-end
+  end
 end
