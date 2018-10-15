@@ -22,7 +22,6 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-
   assign_rooms(attendees).each do |room|
     puts room
   end
